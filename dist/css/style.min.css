@@ -134,10 +134,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex: 0 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .footer__container {
     flex-wrap: wrap;
-    align-items: center;
     text-align: center;
   }
 }
@@ -405,6 +404,11 @@ p:last-child {
   display: flex;
   margin-bottom: 147px;
   flex: 1 1 auto;
+}
+@media (max-width: 1200px) {
+  .main__container {
+    flex-wrap: wrap;
+  }
 }
 .main__body {
   flex: 1 1 868px;

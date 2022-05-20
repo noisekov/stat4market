@@ -64,6 +64,9 @@ p {
     display: flex;
     margin-bottom: 147px;
     flex: 1 1 auto;
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
+    }
   }
   // .main__body
   &__body {
